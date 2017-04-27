@@ -1,9 +1,9 @@
-
 body {
   background-color: #f9f9f9;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
+
 
 /* Style for "container" */
 
@@ -14,116 +14,133 @@ body {
   margin: 0 auto;
   background-color: #ffffff;
 }
- /*style for all menu*/
+
+
+/*style for all menu*/
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
-  li,
-  a,
-  img {
-    display: inline-block;
-    text-align: center;
+
+li, a, img {
+  display: inline-block;
+  text-align: center;
 }
- /*style for logo*/
+
+
+/*style for logo*/
+
 .logo {
   margin-left: 45px;
   margin-top: 50px;
 }
- /*style for top menu*/
- nav {
+
+
+/*style for top menu*/
+
+nav {
   width: 966px;
   height: 40px;
   margin: 40px 48px 0 46px;
-  background-image: -webkit-linear-gradient(to top, #444343 0%, #5e5e5e 100%);
-  background-image: -moz-linear-gradient(to top, #444343 0%, #5e5e5e 100%);
-  background-image: -o-linear-gradient(to top, #444343 0%, #5e5e5e 100%);
-  background-image: -ms-linear-gradient(to top, #444343 0%, #5e5e5e 100%);
   background-image: linear-gradient(to top, #444343 0%, #5e5e5e 100%);
- }
- nav ul {
+}
+
+nav ul {
   width: 479px;
   height: 40px;
   margin-left: 25px;
- }
- nav li {
-   width: 24%;
- }
- nav a {
-   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-   color: #ffffff;
-   font-size: 15px;
-   line-height: 40px;
- }
- nav a:hover {
-   width: 100px;
-   border-left: 1px solid #838383;
-   border-right: 1px solid #838383;
-   background-image: -webkit-linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
-   background-image: -moz-linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
-   background-image: -o-linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
-   background-image: -ms-linear-gradient(tto top, #2e2e2e 0%, #4a4a4a 100%);
-   background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
- }
- /*style for left menu*/
- .products {
-  width: 240px;
-  height: 240px;
+}
+
+nav li {
+  width: 24%;
+}
+
+nav a {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+nav a:hover {
+  width: 100px;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
+}
+
+
+/*style for left menu*/
+
+.products {
+  width: 238px;
+  height: 238px;
   margin-left: 46px;
   margin-right: 0;
   border: 1px solid #c8c8c8;
-  box-sizing: border-box;
-  float: left;
   margin-top: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
 
- }
- .products ul {
-   width: 100%;
-   height: 100%;
- }
- .products li {
- width: 100%;
- height: 16.66%;
- border-bottom: 1px solid #c8c8c8;
- }
- .products li:last-child {
-   border-bottom: none;
- }
- .products a {
+.products ul {
+  width: 100%;
+  height: 100%;
+}
+
+.products li {
+  width: 100%;
+  height: 16.16%;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.products li:last-child {
+  border-bottom: 0;
+}
+
+.products a {
   height: 100%;
   width: 80%;
   font-size: 13px;
   color: #656363;
   line-height: 37px;
   text-align: left;
+}
 
- }
- .products a:hover {
-   padding-left: 35px;
-   color: #2c2c2c;
- }
- .products li:hover {
-   background-color: #f9f9f9;
- }
+.products a:hover {
+  padding-left: 35px;
+  color: #2c2c2c;
+}
+
+.products li:hover {
+  background-color: #f9f9f9;
+}
+
+
 /*style for products image*/
 
 .frame {
-  width: 678px;
-  height: 400px;
+  width: 676px;
+  height: 398 px;
   margin-top: 40px;
   margin-left: 48px;
   display: inline-block;
   text-align: center;
   border: 1px solid #c8c8c8;
-
+  vertical-align: top;
 }
+
 #products_image {
   margin-top: 47px;
 }
 
+
 /*style for text*/
+
 p {
   margin-left: 358px;
   margin-top: 40px;
@@ -132,7 +149,10 @@ p {
   line-height: 21px;
   margin-right: 77px;
 }
+
+
 /*style for footer*/
+
 footer {
   margin-top: 60px;
   width: 966px;
@@ -140,29 +160,35 @@ footer {
   background-color: #e1e1e1;
   margin-left: 46px;
 }
+
 footer ul {
- width: 100%;
- height: 40px;
+  width: 100%;
+  height: 40px;
 }
+
 footer li:first-child {
   margin-left: 25px;
 }
+
 footer li {
-  margin-right: 95px;
+  margin-right: 93px;
   height: 100%;
 }
-footer li:nth-child(4),
-footer li:last-child {
+
+footer li:nth-child(4), footer li:last-child {
   margin-right: 0;
 }
+
 footer a {
   color: #2c2c2c;
   font-size: 13px;
   line-height: 40px;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
+
 footer li:last-child {
   height: 40px;
   margin-left: 280px;
