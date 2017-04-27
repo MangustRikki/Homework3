@@ -104,15 +104,16 @@ nav a:hover {
 
 .products a {
   height: 100%;
-  width: 80%;
+  width: 100%;
   font-size: 13px;
   color: #656363;
   line-height: 37px;
   text-align: left;
+  text-indent: 22px;
 }
 
 .products a:hover {
-  padding-left: 35px;
+  text-indent: 35px;
   color: #2c2c2c;
 }
 
